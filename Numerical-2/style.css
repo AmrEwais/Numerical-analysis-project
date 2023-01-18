@@ -1,0 +1,94 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e5eceb;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+body>* {
+    background-color: #F6F9F8;
+    box-shadow: 0 3px 3px -2px rgb(39 44 51 / 10%), 0 3px 4px 0 rgb(39 44 51 / 4%), 0 1px 8px 0 rgb(39 44 51 / 2%);
+}
+input {
+    border: 1px solid #9e9e9e;
+    color: #272c33;
+    background-color: white;
+    border-radius: 0;
+    outline: none;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    padding: 0;
+}
+.btn {
+    border: none;
+    border-radius: 2px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #3a506b;
+    color: #fff;
+    box-shadow: 1px 3px 5px rgba(39,44,51,.075);
+}
+.btn:hover {
+    transition: all 0.5s ease;
+    background-color: #667793d3;
+    color: #9F9F9F;
+    transform: translateY(1px);
+}
+
+/* ------------------------------------------------------------------- */
+.text-center{
+    text-align: center;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 8px;
+}
+#augmat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#outdiv > table{
+    background-color: white;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+}
+#outdiv td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: center;
+}
+.ul-outdiv >.augtab{
+    margin-right: 15px;
+}
+.ul-outdiv{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.gauss-outdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+#resdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numerical project</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section>
+        <div class="a-btn">
+            <div><a href="/Numerical-2/gausselmination.html" target="_blank">GAUSS METHOD</a></div>
+            <div><a href="/Numerical-2/lu.html" target="_blank">LU METHOD</a></div>
+        </div>
+        <form id="my-form">
+            <div>
+                <input type="text" id="fx" placeholder="Fx = (6x^3-5x^2+7x-2)">
+                <select name="method" id="method-selector">
+                    <option value="0">Bisection</option>
+                    <option value="1">False Position</option>
+                    <option value="2">Fixed Point</option>
+                    <option value="3">Newton</option>
+                    <option value="4">Secant</option>
+                    <button>Select</button>
+                </select>
+            </div>
+            <div class="x-input">
+                <input type="text" id="xl" placeholder="Xl">
+
+                <input type="text" id="xu" placeholder="Xu">
+
+                <input type="text" id="x" placeholder="Xi">
+
+                <input type="text" id="xi1" placeholder="xi-1">
+
+                <input type="text" id="maxError" placeholder="Error" style="width: 75px">
+            </div>
+
+            <div>
+                <button class="btn" id="clear-btn">Clear</button>
+                <button class="btn" id="calc-btn">Calculate</button>
+            </div>
+
+        </form>
+        <div>
+            <table id="table-of-results">
+
+            </table>
+        </div>
+    </section>
+
+    <script src="math.js"></script>
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
